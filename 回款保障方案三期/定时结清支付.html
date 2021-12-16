@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>定时结清支付</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/定时结清支付/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/定时结清支付/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1622" class="ax_default flow_shape">
+        <div id="u1622_div" class=""></div>
+        <div id="u1622_text" class="text ">
+          <p><span>结清支付开始</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Bracket) -->
+      <div id="u1623" class="ax_default flow_shape">
+        <img id="u1623_img" class="img " src="images/定时代扣/u1591.svg"/>
+        <div id="u1623_text" class="text ">
+          <p><span>结清支付申请单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1624" class="ax_default flow_shape">
+        <div id="u1624_div" class=""></div>
+        <div id="u1624_text" class="text ">
+          <p><span>获取需结清支付期数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1625" class="ax_default paragraph">
+        <div id="u1625_div" class=""></div>
+        <div id="u1625_text" class="text ">
+          <p><span>数据范围</span></p><p><span><br></span></p><p><span>1.&nbsp; 结清日期 &lt;= 今日</span></p><p><span>2. 还款状态 in 未还款、逾期未还款、部分还款、逾期部分还款</span></p><p><span>3. 未暂停结清</span></p><p><span><br></span></p><p><span>代偿通道</span></p><p><span>1.&nbsp; 付款：代偿付款通道</span></p><p><span>2. 收款：代偿收款通道</span></p><p><span><br></span></p><p><span>金额</span></p><p><span>1. 剩余应收总金额</span></p><p><span><br></span></p><p><span>分账</span></p><p><span>1.&nbsp; 根据配置使用分账通道</span></p><p><span><br></span></p><p><span>代收付</span></p><p><span>1. 根据配置标记代收付</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1626" class="ax_default flow_shape">
+        <div id="u1626_div" class=""></div>
+        <div id="u1626_text" class="text ">
+          <p><span>每个业务单先代扣最小期数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1627" class="ax_default flow_shape">
+        <img id="u1627_img" class="img " src="images/定时代扣/u1595.svg"/>
+        <div id="u1627_text" class="text ">
+          <p><span>代偿结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1628" class="ax_default flow_shape">
+        <img id="u1628_img" class="img " src="images/定时代扣/u1595.svg"/>
+        <div id="u1628_text" class="text ">
+          <p><span>是否有下一期需代扣</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1629" class="ax_default flow_shape">
+        <img id="u1629_seg0" class="img " src="images/定时代扣/u1597_seg0.svg" alt="u1629_seg0"/>
+        <img id="u1629_seg1" class="img " src="images/定时代扣/u1597_seg1.svg" alt="u1629_seg1"/>
+        <div id="u1629_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1630" class="ax_default flow_shape">
+        <img id="u1630_seg0" class="img " src="images/定时代扣/u1598_seg0.svg" alt="u1630_seg0"/>
+        <img id="u1630_seg1" class="img " src="images/定时代扣/u1598_seg1.svg" alt="u1630_seg1"/>
+        <div id="u1630_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1631" class="ax_default flow_shape">
+        <img id="u1631_seg0" class="img " src="images/定时代扣/u1599_seg0.svg" alt="u1631_seg0"/>
+        <img id="u1631_seg1" class="img " src="images/定时代扣/u1599_seg1.svg" alt="u1631_seg1"/>
+        <div id="u1631_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1632" class="ax_default flow_shape">
+        <img id="u1632_seg0" class="img " src="images/定时结清支付/u1632_seg0.svg" alt="u1632_seg0"/>
+        <img id="u1632_seg1" class="img " src="images/定时结清支付/u1632_seg1.svg" alt="u1632_seg1"/>
+        <div id="u1632_text" class="text ">
+          <p><span>成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1633" class="ax_default flow_shape">
+        <img id="u1633_seg0" class="img " src="images/定时结清支付/u1633_seg0.svg" alt="u1633_seg0"/>
+        <img id="u1633_seg1" class="img " src="images/定时结清支付/u1633_seg1.svg" alt="u1633_seg1"/>
+        <img id="u1633_seg2" class="img " src="images/定时结清支付/u1633_seg2.svg" alt="u1633_seg2"/>
+        <img id="u1633_seg3" class="img " src="images/定时结清支付/u1633_seg3.svg" alt="u1633_seg3"/>
+        <div id="u1633_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1634" class="ax_default flow_shape">
+        <div id="u1634_div" class=""></div>
+        <div id="u1634_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1635" class="ax_default flow_shape">
+        <img id="u1635_seg0" class="img " src="images/定时结清支付/u1635_seg0.svg" alt="u1635_seg0"/>
+        <img id="u1635_seg1" class="img " src="images/定时结清支付/u1635_seg1.svg" alt="u1635_seg1"/>
+        <div id="u1635_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1636" class="ax_default flow_shape">
+        <img id="u1636_seg0" class="img " src="images/定时结清支付/u1636_seg0.svg" alt="u1636_seg0"/>
+        <img id="u1636_seg1" class="img " src="images/定时结清支付/u1636_seg1.svg" alt="u1636_seg1"/>
+        <img id="u1636_seg2" class="img " src="images/定时结清支付/u1636_seg2.svg" alt="u1636_seg2"/>
+        <img id="u1636_seg3" class="img " src="images/定时结清支付/u1636_seg3.svg" alt="u1636_seg3"/>
+        <div id="u1636_text" class="text ">
+          <p><span>失败</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1637" class="ax_default paragraph">
+        <div id="u1637_div" class=""></div>
+        <div id="u1637_text" class="text ">
+          <p><span>每日一次</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
