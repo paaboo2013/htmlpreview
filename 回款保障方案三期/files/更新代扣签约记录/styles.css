@@ -17,13 +17,13 @@
   position:absolute;
   z-index:0;
 }
-#u2004_div {
+#u1996_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:717px;
-  height:116px;
+  height:170px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   box-sizing:border-box;
@@ -46,13 +46,13 @@
   color:#FF3399;
   line-height:18px;
 }
-#u2004 {
+#u1996 {
   border-width:0px;
   position:absolute;
   left:125px;
   top:128px;
   width:717px;
-  height:116px;
+  height:170px;
   display:flex;
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
@@ -61,14 +61,14 @@
   color:#FF3399;
   line-height:18px;
 }
-#u2004 .text {
+#u1996 .text {
   position:absolute;
   align-self:flex-start;
   padding:4px 0px 4px 8px;
   box-sizing:border-box;
   width:100%;
 }
-#u2004_text {
+#u1996_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
