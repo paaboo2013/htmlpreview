@@ -17,7 +17,7 @@
   position:absolute;
   z-index:0;
 }
-#u2002_div {
+#u2003_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -46,7 +46,7 @@
   color:#FF3399;
   line-height:18px;
 }
-#u2002 {
+#u2003 {
   border-width:0px;
   position:absolute;
   left:125px;
@@ -61,14 +61,14 @@
   color:#FF3399;
   line-height:18px;
 }
-#u2002 .text {
+#u2003 .text {
   position:absolute;
   align-self:flex-start;
   padding:4px 0px 4px 8px;
   box-sizing:border-box;
   width:100%;
 }
-#u2002_text {
+#u2003_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
