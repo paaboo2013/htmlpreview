@@ -1725,7 +1725,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:103px;
+  width:75px;
   height:32px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -1746,7 +1746,7 @@
   position:absolute;
   left:256px;
   top:578px;
-  width:103px;
+  width:75px;
   height:32px;
   display:flex;
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
@@ -2166,7 +2166,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:131px;
+  width:103px;
   height:32px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -2187,7 +2187,7 @@
   position:absolute;
   left:256px;
   top:610px;
-  width:131px;
+  width:103px;
   height:32px;
   display:flex;
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
@@ -4188,62 +4188,6 @@
   width:100%;
 }
 #u806_text {
-  border-width:0px;
-  white-space:nowrap;
-  text-transform:none;
-}
-#u807_div {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:129px;
-  height:26px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  box-sizing:border-box;
-  border-width:2px;
-  border-style:solid;
-  border-color:rgba(255, 51, 153, 1);
-  border-top:0px;
-  border-right:0px;
-  border-bottom:0px;
-  border-radius:0px;
-  border-top-left-radius:0px;
-  border-bottom-left-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
-  font-weight:400;
-  font-style:normal;
-  font-size:12px;
-  color:#FF3399;
-  line-height:18px;
-}
-#u807 {
-  border-width:0px;
-  position:absolute;
-  left:242px;
-  top:561px;
-  width:129px;
-  height:26px;
-  display:flex;
-  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
-  font-weight:400;
-  font-style:normal;
-  font-size:12px;
-  color:#FF3399;
-  line-height:18px;
-}
-#u807 .text {
-  position:absolute;
-  align-self:flex-start;
-  padding:4px 0px 4px 8px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u807_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
