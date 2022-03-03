@@ -510,3 +510,35 @@
   white-space:nowrap;
   text-transform:none;
 }
+#u1623_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:169px;
+  height:357px;
+}
+#u1623 {
+  border-width:0px;
+  position:absolute;
+  left:1029px;
+  top:164px;
+  width:169px;
+  height:357px;
+  display:flex;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+#u1623 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u1623_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
