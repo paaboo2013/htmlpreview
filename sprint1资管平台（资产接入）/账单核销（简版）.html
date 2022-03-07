@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>账单核销（简版）</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/账单核销（简版）/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/账单核销（简版）/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6194" class="ax_default shape">
+        <div id="u6194_div" class=""></div>
+        <div id="u6194_text" class="text ">
+          <p><span>请求信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6195" class="ax_default paragraph1">
+        <div id="u6195_div" class=""></div>
+        <div id="u6195_text" class="text ">
+          <p><span><br></span></p><p><span>交易金额</span></p><p><span>三方支付订单编号</span></p><p><span>付款方信息：账户名、账号</span></p><p><span>收款方信息：账户名、账号</span></p><p><span>支付通道信息：支付方式、支付机构</span></p><p><span>支付时间</span></p><p><span>支付凭证</span></p><p><span>资产编号</span></p><p><span>核销期数</span></p><p><span>核销本金</span></p><p><span>核销利息</span></p><p><span>核销罚息</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6196" class="ax_default paragraph">
+        <div id="u6196_div" class=""></div>
+        <div id="u6196_text" class="text ">
+          <p><span>账单核销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6197" class="ax_default _文本段落">
+        <div id="u6197_div" class=""></div>
+        <div id="u6197_text" class="text ">
+          <p><span>支付方式：现金/代扣/直扣/主动支付 选填</span></p><p><span>支付机构：无/通联/支付宝/华夏银行/光大银行/网商银行 选填</span></p><p><span>商户号：可选</span></p><p><span><br></span></p><p><span>核销规则：</span></p><p><span>1. 实收金额不能大于应收金额</span></p><p><span>2. 正常还款、逾期已还款 时不能再核销</span></p><p><span>3. 交易金额 = 核销本金+核销利息+核销罚息</span></p><p><span>4、核销账单需要按照顺序核销：</span></p><p><span>（1）上一期账单为未还款、逾期未还款、部分还款、逾期部分还款时，下一期账单不允许核销</span></p><p><span>（2）核销账单时：下一期的账单的支付日期需&gt;=上一起账单的支付日期</span></p><p><span>5. 当期账单部分还款时，如果当前支付日期大于当期最后支付日期，则更新最后支付日期</span></p><p><span><br></span></p><p><span>账单核销后 更新资产快照</span></p><p><span><br></span></p><p><span>资产结清状态可以核销账单</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
